@@ -66,7 +66,7 @@ const HomeScreen=({navigation})=>{
               {/* House image */}
               <Image source={house.image} style={style.cardImage} />
               <View style={{marginTop: 10}}>
-                  
+
                 {/* Title and price container */}
                 <View
                   style={{
@@ -104,6 +104,7 @@ const HomeScreen=({navigation})=>{
                     <Text style={style.facilityText}>100m</Text>
                   </View>
                 </View>
+
               </View>
             </View>
           </Pressable>
@@ -129,7 +130,7 @@ const HomeScreen=({navigation})=>{
                 source={require('../assets/person.jpg')}
                 />
             </View>
-            <ScrollView>
+            <ScrollView showsVerticalScrollIndicator={false}>
                 {/* Input and sort button container */}
                 <View
                 style={{
